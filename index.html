@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Estilos base para moviles (todos los dispositivos) */
+        body {
+            background-color: white;
+            font-size: 14px;
+        }
+/* Para tablets y portatiles */
+        @media screen and (min-width: 768px){
+        
+        
+        body {
+            background-color: lightblue;
+            font: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        }
+
+        /* Para monitores grandes (mas de 1200px) */
+        @media screen and (min-width: 1200px) {
+           body {
+            background-color: green;
+           }
+        }
+    </style>
+</head>
+<body>
+    <p>Esto es una prueba de media queries</p>
+</body>
+</html>
